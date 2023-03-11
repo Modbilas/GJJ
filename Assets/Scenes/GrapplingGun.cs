@@ -50,12 +50,12 @@ public class GrapplingGun : MonoBehaviour
 
     public Rigidbody2D ballRigidbody;
 
-
     private void Start()
     {
         grappleRope.enabled = false;
         m_springJoint2D.enabled = false;
         ballRigidbody.gravityScale = 1;
+
     }
 
     private void Update()
